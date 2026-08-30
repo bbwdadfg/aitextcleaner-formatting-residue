@@ -3,7 +3,7 @@ class AitextcleanerFormattingResidue < Formula
   homepage "https://aitextcleaner.pro/"
   url "https://github.com/bbwdadfg/aitextcleaner-formatting-residue/archive/refs/tags/v0.2.0.tar.gz"
   version "0.2.0"
-  sha256 :no_check
+  sha256 "53d7314b6c13d393fa33593ad8c9afe8a07e10b5031defe4451dfb554cd98e68"
   license "MIT"
 
   livecheck :skip
