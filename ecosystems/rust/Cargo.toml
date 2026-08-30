@@ -1,0 +1,9 @@
+[package]
+name = "aitextcleaner-formatting-residue"
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+description = "Local formatting-residue cleanup helper for copied text."
+homepage = "https://aitextcleaner.pro/"
+repository = "https://aitextcleaner.pro/"
+readme = "README.md"

@@ -1,0 +1,16 @@
+{
+  "name": "aitextcleaner-formatting-residue",
+  "version": "0.2.0",
+  "license": "MIT",
+  "githubTag": "v0.2.0",
+  "previousPublishedVersion": "0.1.0",
+  "publishPerformed": false,
+  "networkCallsPerformed": false,
+  "registries": {
+    "githubPackages": {"requiresNamespaceAndToken": true, "publishPerformed": false},
+    "gitlabPackageRegistry": {"requiresProjectNamespaceAndToken": true, "publishPerformed": false}
+  },
+  "homepage": "https://aitextcleaner.pro/",
+  "repository": "https://aitextcleaner.pro/",
+  "source": "https://aitextcleaner.pro/"
+}

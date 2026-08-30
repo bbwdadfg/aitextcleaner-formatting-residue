@@ -1,0 +1,9 @@
+{
+  "name": "@bbwdadfg/aitextcleaner-formatting-residue",
+  "version": "0.2.0",
+  "exports": "./mod.ts",
+  "license": "MIT",
+  "publish": {"include": ["mod.ts", "README.md", "LICENSE"]},
+  "homepage": "https://aitextcleaner.pro/",
+  "repository": "https://github.com/bbwdadfg/aitextcleaner-formatting-residue"
+}

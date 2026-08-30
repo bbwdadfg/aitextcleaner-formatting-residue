@@ -1,0 +1,10 @@
+{
+  "name": "aitextcleaner-formatting-residue-cli",
+  "version": "0.2.0",
+  "license": "MIT",
+  "homepage": "https://aitextcleaner.pro/",
+  "repository": "https://aitextcleaner.pro/",
+  "source": "https://aitextcleaner.pro/",
+  "networkCalls": false,
+  "imageTag": "aitextcleaner-formatting-residue:0.2.0"
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require "cgi"
+
+input = STDIN.read
+block = %r{</?(?:address|article|blockquote|br|div|li|p|pre|section)\b[^>]*>}i
+cleaned = input.gsub(block, "\n").gsub(/<[^>]*>/, "")
+cleaned = CGI.unescapeHTML(cleaned)
+cleaned = cleaned.gsub("“", '"').gsub("”", '"').gsub("‘", "'").gsub("’", "'")
+  .gsub("–", "-").gsub("—", "-").gsub("…", "...")
+  .gsub(/[ \t]+\n/, "\n").gsub(/\n{3,}/, "\n\n")
+STDOUT.write(cleaned.strip)

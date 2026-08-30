@@ -1,0 +1,8 @@
+FROM python:3.12-slim
+LABEL org.opencontainers.image.version="0.2.0"
+LABEL org.opencontainers.image.licenses="MIT"
+LABEL org.opencontainers.image.source="https://aitextcleaner.pro/"
+COPY entrypoint.sh /usr/local/bin/aitextcleaner-formatting-residue
+COPY app.py /opt/aitextcleaner/app.py
+RUN chmod +x /usr/local/bin/aitextcleaner-formatting-residue
+ENTRYPOINT ["/usr/local/bin/aitextcleaner-formatting-residue"]

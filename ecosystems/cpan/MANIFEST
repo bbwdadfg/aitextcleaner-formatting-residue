@@ -1,0 +1,5 @@
+Makefile.PL
+LICENSE
+README.md
+lib/Aitextcleaner/FormattingResidue.pm
+t/formatting-residue.t

@@ -1,0 +1,8 @@
+name: aitextcleaner_formatting_residue
+description: Local formatting-residue cleanup helper for copied text.
+version: 0.2.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+homepage: https://aitextcleaner.pro/
+repository: https://aitextcleaner.pro/
+issue_tracker: https://aitextcleaner.pro/

@@ -1,0 +1,12 @@
+{
+  "registry": "ghcr.io",
+  "image": "ghcr.io/aitextcleaner/formatting-residue:0.2.0",
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "namespaceRequired": true,
+  "tokenRequired": true,
+  "publishPerformed": false,
+  "homepage": "https://aitextcleaner.pro/",
+  "repository": "https://aitextcleaner.pro/",
+  "source": "https://aitextcleaner.pro/"
+}

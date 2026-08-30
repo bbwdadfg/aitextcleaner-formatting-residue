@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>AiTextCleaner.FormattingResidue</AssemblyName>
+    <RootNamespace>AiTextCleaner.FormattingResidue</RootNamespace>
+    <PackageId>AiTextCleaner.FormattingResidue</PackageId>
+    <Version>0.2.0</Version>
+    <PackageVersion>0.2.0</PackageVersion>
+    <Authors>AI Text Cleaner</Authors>
+    <Description>Local formatting-residue cleanup helper for copied text.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://aitextcleaner.pro/</PackageProjectUrl>
+    <RepositoryUrl>https://aitextcleaner.pro/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>

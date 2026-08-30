@@ -1,0 +1,9 @@
+# Local build outputs from ecosystem dry-runs.
+ecosystems/rust/target/
+ecosystems/swift-package/.build/
+ecosystems/nuget/**/obj/
+ecosystems/nuget/**/bin/
+ecosystems/pub/.dart_tool/
+ecosystems/pub/pubspec.lock
+.tmp-*/
+.tmp-*

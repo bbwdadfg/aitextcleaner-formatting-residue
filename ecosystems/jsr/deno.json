@@ -1,0 +1,7 @@
+{
+  "name": "@bbwdadfg/aitextcleaner-formatting-residue",
+  "version": "0.2.0",
+  "exports": "./mod.ts",
+  "license": "MIT",
+  "tasks": {"test": "deno test"}
+}
