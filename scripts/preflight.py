@@ -45,9 +45,15 @@ def main() -> int:
             fail(f"wrong version for {surface['id']}: {surface['version']}")
         if surface.get("license") != "MIT":
             fail(f"wrong license for {surface['id']}")
-        for field in ("homepage", "repository", "source"):
-            if surface.get(field) != SITE:
-                fail(f"wrong {field} for {surface['id']}")
+        if surface.get("homepage") != SITE or surface.get("source") != SITE:
+            fail(f"wrong homepage or source for {surface['id']}")
+        expected_repository = (
+            "https://github.com/bbwdadfg/aitextcleaner-formatting-residue"
+            if surface["id"] == "packagist"
+            else SITE
+        )
+        if surface.get("repository") != expected_repository:
+            fail(f"wrong repository for {surface['id']}")
         for category in ("metadata", "sourceFiles", "testFiles"):
             for relative in surface[category]:
                 candidate = surface_root / relative
