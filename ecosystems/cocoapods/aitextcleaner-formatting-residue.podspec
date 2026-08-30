@@ -7,6 +7,6 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "AI Text Cleaner" => "https://aitextcleaner.pro/" }
   spec.source = { :git => "https://github.com/bbwdadfg/aitextcleaner-formatting-residue.git", :tag => "v0.2.0" }
-  spec.source_files = "Sources/**/*.swift"
+  spec.source_files = "ecosystems/cocoapods/Sources/**/*.swift"
   spec.swift_version = "5.7"
 end
