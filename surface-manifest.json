@@ -22,6 +22,20 @@
       "source": "https://aitextcleaner.pro/"
     },
     {
+      "id": "packagist",
+      "ecosystem": "PHP/Packagist",
+      "path": ".",
+      "version": "dev-main",
+      "status": "ready-for-local-preflight",
+      "license": "MIT",
+      "metadata": ["composer.json"],
+      "sourceFiles": ["php/src/AiTextCleaner/FormattingResidue.php"],
+      "testFiles": [],
+      "homepage": "https://aitextcleaner.pro/",
+      "repository": "https://github.com/bbwdadfg/aitextcleaner-formatting-residue",
+      "source": "https://aitextcleaner.pro/"
+    },
+    {
       "id": "npm",
       "ecosystem": "Node/npm",
       "path": "ecosystems/npm",

@@ -1,0 +1,10 @@
+{
+  "name": "bbwdadfg/aitextcleaner-formatting-residue",
+  "description": "Local formatting-residue cleanup helper for copied text.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://aitextcleaner.pro/",
+  "support": {"source": "https://github.com/bbwdadfg/aitextcleaner-formatting-residue"},
+  "autoload": {"psr-4": {"AiTextCleaner\\": "php/src/AiTextCleaner/"}},
+  "require": {"php": ">=8.1"}
+}
