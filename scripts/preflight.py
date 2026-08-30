@@ -40,7 +40,7 @@ def main() -> int:
         surface_root = (ROOT / surface["path"]).resolve()
         if ROOT not in surface_root.parents and surface_root != ROOT:
             fail(f"surface escapes package root: {surface['id']}")
-        expected_version = "0.1.0" if surface["id"] == "python-pypi" else "0.2.0"
+        expected_version = "0.1.0" if surface["id"] == "python-pypi" else "0.2.2" if surface["id"] in {"packagist", "go"} else "0.2.0"
         if surface["version"] != expected_version:
             fail(f"wrong version for {surface['id']}: {surface['version']}")
         if surface.get("license") != "MIT":
